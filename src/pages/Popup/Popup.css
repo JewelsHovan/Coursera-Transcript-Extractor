@@ -8,6 +8,7 @@
   height: 100%;
   padding: 10px;
   background-color: #282c34;
+  width: 800px; /* Set the desired width here */
 }
 
 .App-logo {
@@ -42,4 +43,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.popup-container {
+  width: 100%; /* Change this to 100% to fill the available space */
+  height: 600px;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin: 10px 0;
+}
+
+.api-config {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.api-config select,
+.api-config input {
+  width: 48%;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }

@@ -1,0 +1,136 @@
+.popup-container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.popup-container.minimized {
+  height: 40px;
+}
+
+.popup-header {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-header h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.popup-controls button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.popup-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.controls-section {
+  margin-bottom: 10px;
+}
+
+.api-config {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.api-config input,
+.api-config select {
+  width: 48%;
+  padding: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-buttons button {
+  width: 48%;
+  padding: 8px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-buttons button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.output-section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.output-section textarea {
+  flex-grow: 1;
+  resize: none;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+}
+
+.word-count {
+  text-align: right;
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-top: 5px;
+}
+
+.popup-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ecf0f1;
+}
+
+.popup-footer button {
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup-footer button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
