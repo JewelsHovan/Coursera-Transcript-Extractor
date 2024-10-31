@@ -1,0 +1,151 @@
+.popup-container {
+  width: 100%;
+  min-height: 300px;
+  background: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-header {
+  background: #2196f3;
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.popup-header h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header-controls {
+  display: flex;
+  gap: 12px;
+}
+
+.header-controls button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.navigation-controls {
+  display: flex;
+  gap: 16px;
+  padding: 16px 24px;
+  background: #fff;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.navigation-controls button {
+  flex: 1;
+  padding: 10px 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.api-config {
+  padding: 16px 24px;
+  background: #fff;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.api-config input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e1e8ed;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 16px;
+  padding: 16px 24px;
+  background: #fff;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.action-buttons button {
+  flex: 1;
+  padding: 10px 16px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.output-section {
+  flex: 1;
+  padding: 16px 24px;
+  background: #fff;
+}
+
+.output-section textarea {
+  width: 100%;
+  height: calc(100% - 80px);
+  padding: 12px;
+  border: 1px solid #e1e8ed;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: none;
+}
+
+.word-count {
+  font-size: 12px;
+  color: #64748b;
+  text-align: right;
+  margin-top: 8px;
+}
+
+.popup-footer {
+  padding: 16px 24px;
+  background: #fff;
+  border-top: 1px solid #e1e8ed;
+  display: flex;
+  gap: 16px;
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #2196f3;
+}
+
+.minimized {
+  height: 40px;
+  overflow: hidden;
+}

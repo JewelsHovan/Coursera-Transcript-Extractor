@@ -1,0 +1,42 @@
+.api-key-setup {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.api-key-input {
+  width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.api-key-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.save-key-btn,
+.reset-key-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.save-key-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.reset-key-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.api-message {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}

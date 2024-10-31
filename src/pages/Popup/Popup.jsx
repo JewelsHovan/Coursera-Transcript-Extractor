@@ -1,12 +1,12 @@
 import React from 'react';
-import Greetings from '../../containers/Greetings/Greetings';
+import TranscriptPanel from '../../containers/TranscriptPanel/TranscriptPanel';
 import './Popup.css';
 
 const Popup = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Greetings />
+        <TranscriptPanel />
       </header>
     </div>
   );

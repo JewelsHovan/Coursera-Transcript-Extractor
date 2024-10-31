@@ -1,14 +1,13 @@
 .App {
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100%;
-  padding: 10px;
-  background-color: #282c34;
-  width: 800px; /* Set the desired width here */
+  padding: 0;
+  background-color: #f5f7fa;
+  width: 800px;
 }
 
 .App-logo {
@@ -26,10 +25,9 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: stretch;
+  padding: 0;
+  color: #2c3e50;
 }
 
 .App-link {
@@ -48,7 +46,6 @@
 .popup-container {
   width: 100%; /* Change this to 100% to fill the available space */
   height: 600px;
-  padding: 20px;
 }
 
 textarea {
