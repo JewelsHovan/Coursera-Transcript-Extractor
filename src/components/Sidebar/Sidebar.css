@@ -1,0 +1,76 @@
+.sidebar {
+  width: 250px;
+  background-color: #527885;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.close-button {
+  background-color: #b5d8d0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #2c3e50;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.api-key-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.action-button {
+  background-color: #b5d8d0;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  color: #2c3e50;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.auto-next-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.toggle-switch {
+  width: 40px;
+  height: 24px;
+  background-color: white;
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-switch.active {
+  background-color: #4caf50;
+}
+
+.toggle-switch::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #b5d8d0;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s;
+}
+
+.toggle-switch.active::after {
+  transform: translateX(16px);
+}

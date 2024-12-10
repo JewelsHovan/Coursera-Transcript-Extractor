@@ -249,4 +249,50 @@ Develop a Chrome extension using React that allows users to:
 
 ---
 
-**Happy Coding!**
+The color pallete:
+
+/_ CSS HEX _/
+--tiffany-blue: #a1d2ceff;
+--tiffany-blue-2: #78cad2ff;
+--verdigris: #62a8acff;
+--blue-munsell: #5497a7ff;
+--dark-cyan: #50858bff;
+
+/_ CSS HSL _/
+--tiffany-blue: hsla(175, 35%, 73%, 1);
+--tiffany-blue-2: hsla(185, 50%, 65%, 1);
+--verdigris: hsla(183, 31%, 53%, 1);
+--blue-munsell: hsla(192, 33%, 49%, 1);
+--dark-cyan: hsla(186, 27%, 43%, 1);
+
+/_ SCSS HEX _/
+$tiffany-blue: #a1d2ceff;
+$tiffany-blue-2: #78cad2ff;
+$verdigris: #62a8acff;
+$blue-munsell: #5497a7ff;
+$dark-cyan: #50858bff;
+
+/_ SCSS HSL _/
+$tiffany-blue: hsla(175, 35%, 73%, 1);
+$tiffany-blue-2: hsla(185, 50%, 65%, 1);
+$verdigris: hsla(183, 31%, 53%, 1);
+$blue-munsell: hsla(192, 33%, 49%, 1);
+$dark-cyan: hsla(186, 27%, 43%, 1);
+
+/_ SCSS RGB _/
+$tiffany-blue: rgba(161, 210, 206, 1);
+$tiffany-blue-2: rgba(120, 202, 210, 1);
+$verdigris: rgba(98, 168, 172, 1);
+$blue-munsell: rgba(84, 151, 167, 1);
+$dark-cyan: rgba(80, 133, 139, 1);
+
+/_ SCSS Gradient _/
+$gradient-top: linear-gradient(0deg, #a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
+$gradient-right: linear-gradient(90deg, #a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
+$gradient-bottom: linear-gradient(180deg, #a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
+$gradient-left: linear-gradient(270deg, #a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
+$gradient-top-right: linear-gradient(45deg, #a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
+$gradient-bottom-right: linear-gradient(135deg, #a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
+$gradient-top-left: linear-gradient(225deg, #a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
+$gradient-bottom-left: linear-gradient(315deg, #a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
+$gradient-radial: radial-gradient(#a1d2ceff, #78cad2ff, #62a8acff, #5497a7ff, #50858bff);
